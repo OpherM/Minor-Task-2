@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;1,700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color: #f7f7f7;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem;
+}
+
+.logo a{
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+    color:  #551A8B;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    padding: 0 2rem;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color:  #551A8B;
+}
+
+nav ul li a:hover{
+    font-family: 'Raleway', sans-serif;
+    border-bottom:2px solid #551A8B;
+    padding-bottom: 0.1rem;
+}
+
+.main-section{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center; 
+    justify-content: space-around;   
+}
+
+.main-article{
+    width: 40%;
+    padding: 0 2rem;
+}
+
+.main-article h1{
+    font-family: 'Raleway', sans-serif;
+    color: #551A8B;
+    font-size: 3rem;
+}
+
+.main-article p{
+    margin-top: 1.5rem;
+    line-height: 1.4rem;
+    font-size: 1.2rem;
+}
+
+.main-buttons{
+    margin-top: 1.7rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-buttons button{
+    font-family: 'Raleway', sans-serif;
+    width: 10rem;
+    height: 2.5rem;
+    font-size: 0.9rem;
+    border-radius: 0.7rem;
+    outline: none;
+    border: none;
+    background-color: #551A8B;
+    color: #f7f7f7;
+}
+
+.main-buttons button:hover{
+    cursor: pointer;
+    color: #551A8B;
+    background-color: #f7f7f7;
+    border: 1px solid #551A8B;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+
+footer ul{
+    display: flex;
+    list-style: none;
+
+}
+
+footer ul li{
+    padding: 0 2rem;
+    color: #551A8B;
+}
+
+.social-media{
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 0.6rem;
+}
